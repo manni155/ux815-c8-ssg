@@ -3,5 +3,6 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+# About
+
+UX 815: Programming Fundamentals for User Experience is a course offered as part of Michigan State University's User Experience Masters of Science program.

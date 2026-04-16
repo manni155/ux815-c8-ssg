@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #554348;
     padding: 0 40px;
     text-align: center;
 }
@@ -10,7 +10,8 @@ nav {
     margin: 40px auto 0 auto;
     width: 250px;
     border-radius: 50px;
-    background: #212431;
+    border: 1px solid #8C9A9E;
+    background: #747578;
 }
 
 nav ul {
@@ -28,23 +29,22 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #D4F5F5;
     text-decoration: none;
     font-size: 1.2em;
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 4em;
     letter-spacing: -2px;
-}
-
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #D4F5F5;
 }
 
 img.about {
     opacity: 0.5;
+}
+
+p {
+    margin: 05% 20%;
+    font-size: 2em;
 }
