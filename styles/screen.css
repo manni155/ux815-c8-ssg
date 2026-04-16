@@ -1,17 +1,14 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #EAE8FF;
-    background: #554348;
+    background: #470063;
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    border: 1px solid #8C9A9E;
-    background: #747578;
+    width: 30%;
 }
 
 nav ul {
@@ -24,6 +21,10 @@ nav ul {
 nav ul li {
     list-style-type: none;
     margin: 0;
+    padding: 0;
+    border: 2px solid #8C9A9E;
+    border-radius: 50px;
+    background: #B30089;
 }
 
 nav ul li a {
@@ -38,6 +39,7 @@ h1 {
     font-size: 4em;
     letter-spacing: -2px;
     color: #D4F5F5;
+    -webkit-text-stroke: 1px #64B6AC;
 }
 
 img.about {
@@ -48,3 +50,8 @@ p {
     margin: 05% 20%;
     font-size: 2em;
 }
+
+img.icon {
+    height: 300px;
+}
+
